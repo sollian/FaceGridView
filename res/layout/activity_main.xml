@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="bottom"
+    >
+    
+    <com.sollian.facegridview.FaceGridView 
+        android:id="@+id/fgv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
