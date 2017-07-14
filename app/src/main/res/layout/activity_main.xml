@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:animationCache="true"
+        android:background="#00000000"
+        android:horizontalSpacing="10dp"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+</LinearLayout>
